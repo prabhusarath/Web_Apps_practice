@@ -1,11 +1,11 @@
 h1{
-		color: orange;
+		color: #FF0000;
 	}
 
 ul{
-		color: blue;
+		color: rgba(0,255,0,.8);
 	}
 
 h4{
-		color: yellow;
+		color: rgb(0,0,255);
 	}
