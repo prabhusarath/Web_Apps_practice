@@ -16,16 +16,35 @@
 // 	v  += 1; 
 // }
 
-var answer = prompt("Are we there Yet");
+// var answer = prompt("Are we there Yet");
 
-var count = 0;
+// var count = 0;
 
-while(answer !== "yes" && answer !== "yeah"){
+// while(answer !== "yes" && answer !== "yeah"){
 
-var answer = prompt("Are we there Yet Again ??");
+// var answer = prompt("Are we there Yet Again ??");
 
-count++;
+// count++;
 
+// }
+
+// alert("You Made It in " + count + " times");
+
+// var answer = prompt("Are we there Yet");
+
+// var count = 0;
+
+// while(answer.indexOf("yes") == -1){
+
+// var answer = prompt("Are we there Yet Again ??");
+
+// count++;
+
+// }
+
+// alert("You Made It in " + count + " times");
+
+for(var start=10;start<40;start = start+2)
+{
+	console.log(start)
 }
-
-alert("You Made It in " + count + " times");
