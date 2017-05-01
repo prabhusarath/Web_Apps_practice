@@ -49,19 +49,30 @@
 // 	console.log(start)
 // }
 
-function isEven(num)
+// function isEven(num)
+// {
+// if(num%2 == 0)
+// 	return true;
+// else
+// 	return false;
+// }
+
+// var q = isEven(4);
+// var w = isEven(21);
+// var e = isEven(68);
+// var r = isEven(333);
+
+// console.log(q,w,e,r);
+
+function fact(in_num)
 {
-if(num%2 == 0)
-	return true;
-else
-	return false;
+	var res = in_num;
+
+	for(var j=in_num-1;j>=1;j--)
+	{
+		res *= j
+	}
+	return res
 }
 
-
-
-var q = isEven(4);
-var w = isEven(21);
-var e = isEven(68);
-var r = isEven(333);
-
-console.log(q,w,e,r);
+console.log(fact(3));
