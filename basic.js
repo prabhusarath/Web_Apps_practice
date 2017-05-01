@@ -44,7 +44,24 @@
 
 // alert("You Made It in " + count + " times");
 
-for(var start=10;start<40;start = start+2)
+// for(var start=10;start<40;start = start+2)
+// {
+// 	console.log(start)
+// }
+
+function isEven(num)
 {
-	console.log(start)
+if(num%2 == 0)
+	return true;
+else
+	return false;
 }
+
+
+
+var q = isEven(4);
+var w = isEven(21);
+var e = isEven(68);
+var r = isEven(333);
+
+console.log(q,w,e,r);
