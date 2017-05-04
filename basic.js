@@ -16,9 +16,8 @@ console.log("Quiting App");
 function newf(){
 
 	var ch = prompt(" Enter new  to do ??");
-
 	list_final.push(ch);
-
+	console.log(list_final);
 }
 
 function list(){
